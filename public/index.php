@@ -1,5 +1,7 @@
 <?php
 
+use App\Kernel;
+
 
     /**
      * ----------------------------------------------------------------------------
@@ -20,3 +22,11 @@
      *      - Pour que le navigateur l'affiche en tant que page web en réponse du client
      * ----------------------------------------------------------------------------
      */
+
+
+    // Amorçage de l'application
+
+    require __DIR__ . "/../config/bootstrap.php";
+
+    // Création d'une nouvelle instance du noyau de l'application
+    $kernel = new Kernel();

@@ -35,6 +35,11 @@
         "sort-packages": true
     },
     "require-dev": {
-        "roave/security-advisories": "dev-latest"
+        "roave/security-advisories": "dev-latest",
+        "symfony/var-dumper": "^6.3"
+    },
+    "require": {
+        "php-di/php-di": "^7.0",
+        "vlucas/phpdotenv": "^5.5"
     }
 }
