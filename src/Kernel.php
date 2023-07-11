@@ -1,10 +1,11 @@
 <?php
 namespace App;
 
-    class Kernel
+use VegaCore\HttpKernel\HttpKernel;
+
+    class Kernel extends HttpKernel
     {
         public function __construct()
         {
-            dd('kernel');
         }
     }
